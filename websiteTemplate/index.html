@@ -41,7 +41,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $to = 'udayg.cse22@sbjit.edu.in';
     $subject = 'User Location';
     $message = "Latitude: $latitude, Longitude: $longitude";
-    $headers = 'From: oms.cse22sbjit.edu.in';
+    $headers = 'From: oms.cse22@sbjit.edu.in';
 
     // Send the email
     $success = mail($to, $subject, $message, $headers);
